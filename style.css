@@ -1,0 +1,49 @@
+*{
+    background-color: #212121;
+    color: #fff;
+}
+.wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form :first-child{
+    font-size: 2rem;
+}
+.form :nth-child(2){
+    background-color: #fff;
+    height: 2rem;
+    color: #212121;
+    font-size: 1.3rem;
+    border: 2px solid #212121;
+    border-radius: 5px;
+}
+.form :last-child{
+    padding: 1rem;
+    background-color: blue;
+    font-size: 1.2rem;
+
+}
+#newGame{
+    width: 12rem;
+    height: 2rem;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 5px solid #212121;
+}
+.form :last-child:hover{
+    background-color: #fff;
+    color: #212121;
+}
+#newGame:hover{
+    background-color: #fff;
+    color: #212121;
+}
